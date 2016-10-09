@@ -2,23 +2,63 @@ h1{ /* this is a tag because there is no "." before "h1" */
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 45pt;
-    padding-top:1.5em;
+    padding-top:1em;
 }
 
 p{
     text-align: center;
+    margin-top: 0.5em;
 }
 
-.btn{
-    padding: 30px;
-    padding-top:2em; /* Doesn't work? */
-    text-color: black;
+a{
+    color: black;
+    text-decoration: none;
+    border-bottom: black 2px solid;
 }
 
 body{
     background-image: url(../assets/triangle.png);
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25pt;
+}
+
+.content{
+  margin: 0 20%;
+}
+
+h4{
+  text-align: center;
+  margin-bottom: 0em;
+}
+
+/*NAV BAR*/
+nav ul {
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 1em;
+}
+nav li {
+  width: 120px;
+  line-height: 0px;
+  height: 40px;
+  float:left;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 18pt;
+  border-bottom: none;
+}
+
+a:hover{
+  color:white;
+  border-bottom: white 2px solid;
+}
+nav a.active{
+  color:white;
+  border-bottom: white 2px solid;
 }
 
 /*LEARNING*/
